@@ -16,3 +16,4 @@ We then set up our rigidbody on launch and then we move onto the Update() method
 
  After that we check if there the player has collided with something, if it has the tag "Ground" then isGrounded is set to true. We then check the same thing but when the player stops colliding with something that has the "Ground" tag, setting isGrounded to false.
 
+After that is done you simply need to drag the script from your assets onto the Triangle. To stop it from spinning around you can go into the RigidBody 2D and then under Contstraints there is an option to freeze the z rotation, this stops it from rotating a 
